@@ -1,8 +1,13 @@
 package db
 
-type db struct {
+import "gorm.io/gorm"
+
+var db *gorm.DB
+
+func Init() {
 }
 
-func (d *db) Init() {
+func GetDB() *gorm.DB {
 
+	return db
 }
