@@ -3,11 +3,10 @@ package main
 import (
 	"flag"
 	"fmt"
-	"os"
-
 	"github.com/hillfolk/go-ddd-start/config"
 	"github.com/hillfolk/go-ddd-start/db"
 	"github.com/hillfolk/go-ddd-start/server"
+	"os"
 )
 
 func main() {

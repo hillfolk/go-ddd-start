@@ -8,6 +8,5 @@ func Init() {
 }
 
 func GetDB() *gorm.DB {
-
 	return db
 }
