@@ -3,6 +3,6 @@ package db
 type db struct {
 }
 
-func (d *db) init() {
+func (d *db) Init() {
 
 }

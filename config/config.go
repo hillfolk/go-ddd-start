@@ -3,6 +3,6 @@ package config
 type config struct {
 }
 
-func (c *config) init(env *string) {
+func (c *config) Init(env *string) {
 
 }
